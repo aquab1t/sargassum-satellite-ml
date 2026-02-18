@@ -1,0 +1,12 @@
+Classification Report for XGBoost_GPU (Positive Class: 'sargassum' encoded as 1)
+Best params: {'colsample_bytree': 1.0, 'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 150, 'scale_pos_weight': np.float64(15.90379403794038), 'subsample': 0.7}
+Best CV F1 (weighted): 0.9746
+
+              precision    recall  f1-score   support
+
+no_sargassum     0.9984    0.9700    0.9840     55333
+   sargassum     0.6717    0.9750    0.7954      3479
+
+    accuracy                         0.9703     58812
+   macro avg     0.8350    0.9725    0.8897     58812
+weighted avg     0.9791    0.9703    0.9728     58812

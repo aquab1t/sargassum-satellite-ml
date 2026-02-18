@@ -1,0 +1,3 @@
+,Accuracy,Precision (w),Recall (w),F1-Score (w),Train Time (s)
+Keras_MLP_Mixed,0.9958,0.9958,0.9958,0.9957,79.8657
+1D_CNN_Mixed,0.9953,0.9953,0.9953,0.9953,258.3294

@@ -1,0 +1,2 @@
+,Accuracy,Precision (w),Recall (w),F1-Score (w),Train Time (s)
+XGBoost_GPU,0.9703,0.9791,0.9703,0.9728,36.2051

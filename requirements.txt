@@ -1,0 +1,31 @@
+# This file was generated for a project running on Python 3.12.8.
+# to ensure a reproducible environment.
+# To install all dependencies, run: pip install -r requirements.txt
+
+# --- Core Data Handling & Numerical Operations ---
+numpy==1.26.4
+pandas==2.3.0
+joblib==1.4.2
+
+# --- Machine Learning - General ---
+scikit-learn==1.5.2
+
+# --- Machine Learning - Specific Models ---
+xgboost==2.1.4
+# For the 1D CNN model. 'tensorflow' includes GPU support.
+tensorflow==2.17.0
+
+# --- Plotting & Visualization ---
+# Used in the training script for generating reports and confusion matrices.
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# --- Geospatial Data Handling ---
+# Essential for reading and writing satellite imagery files like GeoTIFF.
+rasterio==1.4.3
+
+# --- Image Processing & Utilities ---
+# Used for on-the-fly image resampling (e.g., aligning 20m and 10m bands).
+opencv-python==4.10.0.84
+# Used for displaying progress bars during long-running classification tasks.
+tqdm==4.66.5
